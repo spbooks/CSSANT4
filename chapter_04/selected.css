@@ -1,0 +1,70 @@
+body {
+  background-color: #333;
+  background-image: url(brushed_alu_dark.png);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font: 0.875em/1.3 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 20px auto 40px auto;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 100%;
+}
+
+.nav li {
+  float: left;
+  min-width: 8em;
+  text-align: center;
+}
+
+.nav li a:link, 
+.nav li a:visited {
+  background-color: rgba(255,255,255,0.4);
+  color: rgb(0,0,0);
+  text-decoration: none;
+  display: block;
+  padding: 0.75em;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  -webkit-border-radius: 3px 3px 0px 0px;
+  border-radius: 3px 3px 0px 0px;
+  -webkit-box-shadow: 0px -3px 2px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px -3px 2px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px -3px 2px 0px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#spreads .nav li.spreads a:link, 
+#spreads .nav li.spreads a:visited,
+#fruit .nav li.fruit a:link, 
+#fruit .nav li.fruit a:visited,
+#wine .nav li.wine a:link, 
+#wine .nav li.wine a:visited,
+#biscuits .nav li.biscuits a:link, 
+#biscuits .nav li.biscuits a:visited {
+  background-color: rgb(255,255,255);
+}
+
+.nav li a:hover {
+  background-color: rgba(255,255,255,0.8);
+}
+
+.content {
+  clear: both;
+  background-color: #fff;
+  color: #000;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 128.6%;
+}

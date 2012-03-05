@@ -1,0 +1,30 @@
+body {
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  font: 0.75em/1.5 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 20px auto 40px auto; 
+}
+
+p {
+  margin: 0;
+  padding; 0;
+}
+
+.box {
+  width: 500px;
+  float:left;
+  background-color: rgb(209,243,219);
+}
+
+.box div {
+  margin: 20px;
+  padding: 20px;
+  border: 5px solid rgb(126,111,113);
+  background-color: rgb(254,255,241);
+}

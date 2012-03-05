@@ -1,0 +1,8 @@
+.box {
+  height: 200px;
+  width: 200px;
+  border: 3px solid #333;
+  background-image: url(gear.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Chapter 6: grouping data with fieldsets</title>
+	<link rel="stylesheet" href="fieldsets.css" />
+</head>
+<body>
+	<div class="wrapper">
+		<form method="post" action="/contact" id="contact-form">
+			<p class="help">Please complete the form to register. Required fields are indicated by a <em>*</em>.</p>
+			<fieldset>
+				<legend>Create an account</legend>
+				<div><label for="fName">Name <em>*</em></label>
+				<input type="text" name="fName" id="fName" required="required" /></div>
+				
+				<div><label for="fEmail">Email address <em>*</em></label>
+				<input type="email" name="fEmail" id="fEmail" required="required" placeholder="name@example.com" /></div>
+				
+				<div><label for="fPassword">Password <em>*</em></label>
+				<input type="text" name="fPassword" id="fPassword" required="required" /></div>
+				
+				<div><label for="fPassword2">Confirm password <em>*</em></label>
+				<input type="text" name="fPassword2" id="fPassword2" required="required" /></div>
+			</fieldset>
+			<fieldset>
+				<legend>Your address</legend>
+				<div><label for="fAddress1">Address Line 1 <em>*</em></label>
+				<input type="text" name="fAddress1" id="fAddress1" required="required" /></div>
+				
+				<div><label for="fAddress2">Address Line 2</label>
+				<input type="text" name="fAddress2" id="fAddress2" /></div>
+				
+				<div><label for="fCity">Town / City <em>*</em></label>
+				<input type="text" name="fCity" id="fCity" required="required" /></div>
+				
+				<div><label for="fPostalCode">Zip / Post Code <em>*</em></label>
+				<input type="text" name="fPostalCode" id="fPostalCode" required="required" /></div>
+			</fieldset>
+			<div class="submit"><input type="submit" name="contact-submit" id="contact-submit" value="Submit" /></div>
+		</form>
+	</div>
+</body>
+</html>

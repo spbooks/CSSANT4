@@ -1,0 +1,33 @@
+body {
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  font: 0.75em/1.5 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 20px auto 40px auto; 
+  position: relative;
+}
+
+.box1 {
+  width: 300px;
+  padding: 20px;
+  border: 5px solid rgb(130,108,84);
+  background-color: rgb(244,234,199);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.box2 {
+  width: 300px;
+  padding: 20px;
+  border: 5px solid rgb(216,174,158);
+  background-color: rgb(250,230,232);
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}

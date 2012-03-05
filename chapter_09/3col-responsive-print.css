@@ -1,0 +1,82 @@
+body {
+	background-color: rgb(255,255,255);
+	color: rgb(0,0,0);
+	padding: 20px;
+	font: 1em/1.4 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0 0 1em 0;
+}
+
+p {
+	margin:0;
+	padding: 0 0 1em 0;
+}
+
+ul, ol {
+	margin:0;
+	padding: 0 0 1em 1em;
+}
+
+
+h1 {
+	font-size: 137.5%;
+}
+
+h2 {
+	font-size: 125%;
+}
+
+h3 {
+	font-size: 100%;
+}
+
+a:link, a:visited {
+	color: rgb(0,0,0);
+}
+
+.header {
+	text-align: right;
+	padding: 20px 0 0 0;
+	border-bottom: 8px solid rgb(0,0,0);
+	margin-bottom: 40px;
+}
+
+.header h1 {
+	font-size: 187.5%;
+	padding-bottom: 10px;
+}
+
+.header .inner {
+	border-bottom: 1px solid rgb(0,0,0);
+	margin-bottom: 2px;
+}
+
+.header h1 span {
+	font-style: italic;
+}
+
+.footer {
+	border-top: 1px solid rgb(0,0,0);
+	padding: 20px 0 20px 0;
+	overflow: auto;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto 0 auto;
+}
+
+.subnav {
+	display: none;
+}
+
+.aside {
+	display: none;
+}
+
+.footer .vcard {
+	display: none;
+}

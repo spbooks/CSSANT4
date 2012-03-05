@@ -1,0 +1,60 @@
+body {
+  background-color: #fff;
+  color: #111;
+  margin: 0;
+  padding: 0;
+  font: 0.75em/1.3 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 20px auto 40px auto;
+}
+
+.clmonth {
+  border-collapse: collapse;
+}
+
+.clmonth caption {
+  text-align: left;
+  font-weight: bold;
+  font-size: 116.7%; 
+  padding-bottom: 0.4em;
+}
+
+.clmonth th {
+  border: 1px solid #aaa;
+  border-bottom: none;
+  padding: 0.2em 0.6em 0.2em 0.6em;
+  background-color: #ccc;
+  color: #3f3f3f;
+  min-width: 8em;
+}
+
+.clmonth td {
+  border: 1px solid #eaeaea;
+  padding: 0.2em 0.6em 0.2em 0.6em;
+  vertical-align: top;
+}
+
+.clmonth td.previous, .clmonth td.next {
+  background-color: #f6f6f6;
+  color: #c6c6c6;
+}
+
+.clmonth td.active {
+  background-color: #b1cbe1;
+  color: #2b5070;
+  border: 2px solid #4682b4;
+}
+
+.clmonth ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 1em;
+  padding-right: 0.6em;
+}
+
+.clmonth li {
+  margin-bottom: 1em;
+}

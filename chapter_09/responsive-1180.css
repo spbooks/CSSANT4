@@ -1,0 +1,45 @@
+/*
+Calculating from width 1180px
+Grid 15 columns at 60px, gutter 20px
+
+gutter = 20px | 1.69491%
+1 = 60px | 5.08474%
+2 = 140px | 11.8644%
+3 = 220px | 18.64406%
+4 = 300px | 25.42372%
+5 = 380px | 32.20338%
+6 = 460px | 38.98305%
+7 = 540px | 45.76271%
+8 = 620px | 52.54237%
+9 = 700px | 59.32203%
+10 = 780px | 66.10169%
+11 = 860px | 72.88135%
+12 = 940px | 79.66101%
+13 = 1020 | 86.44067%
+14 = 1100 | 93.22033%
+15 = 1180 | 100%
+
+*/
+
+.wrapper {
+	max-width: 1180px;
+}
+
+.feature {
+	float: left;
+	width: 79.66101%;
+}
+
+.intro {
+	float: right;
+	width: 18.64406%;
+}
+
+.gallery li:nth-child(n) {
+	width: 18.64406%;
+	margin: 0 0 1.69491% 1.69491%;
+}
+
+.gallery li:nth-child(5n+1) {
+	margin-left: 0;
+}

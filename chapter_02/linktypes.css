@@ -1,0 +1,9 @@
+a:link, a:visited {  text-decoration: underline;  color: #6A5ACD;  background-color: transparent;}
+a:hover, a:active {  text-decoration: none;  color: #191970;  background-color: #C9C3ED;}
+
+.boxout {  color: #FFFFFF;  background-color: #6A5ACD;
+  width: 320px;
+  padding: 10px;}
+.boxout a:link, .boxout a:visited {  text-decoration: underline;  color: #E4E2F6;  background-color: transparent;}
+.boxout a:hover, .boxout a:active {  background-color: #C9C3ED;  color: #191970;
+  text-decoration: none;}

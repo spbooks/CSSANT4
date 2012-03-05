@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	padding: 0;
+	font: 1em/1.4 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+	background-color: rgb(255,255,255);
+	color: rgb(59,67,68);
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto 0 auto;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+h1,h2,h3 {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 125%;
+	padding: 0 0 1em 0;
+}
+
+p {
+	margin: 0;
+	padding: 0 0 1em 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+a:link, a:visited {
+	color: rgb(122,106,83);
+}
+
+.header {
+	background-color: rgb(59,67,68);
+	color: rgb(255,255,255);
+	border-bottom: 1px solid rgb(0,0,0);
+	margin-bottom: 1em;
+}
+
+.header .wrapper {
+	position: relative;
+}
+
+.header h1 {
+	display: inline-block;
+	padding: 1em 0 0.3em 0;
+	font-size: 125%;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+}
+
+.header .nav  {
+	padding-bottom: 1em;
+}
+
+.header .nav li {
+	display: inline;
+	font-size: 125%;
+	color: rgb(255,255,255);
+	padding: 0 0.5em 0 0;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+}
+
+.header .nav a:link, .header .nav a:visited {
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+
+.feature  {
+	background-color: rgb(59,67,68);
+	color: rgb(255,255,255);
+	margin: 0 0 1em 0;
+}
+
+.caption {
+	padding: 0.3em;
+	font-size: 87.5%;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+}
+
+.gallery ul {
+	list-style-type: none;
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+
+.footer {
+	border-top: 1px solid rgb(59,67,68);
+	font-size: 87.5%;
+	padding: 1em 0 1em 0;
+}

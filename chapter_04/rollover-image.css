@@ -1,0 +1,60 @@
+body {
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  font: 0.875em/1.2 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 20px auto 40px auto;
+}
+
+.intouch {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.intouch li a:link, .intouch li a:visited {
+  padding: 0.5em 0 0.5em 40px;
+  display: block;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-image: url(sprite-roll.png);
+  text-decoration: none;
+  color: rgb(136,136,136);
+}
+
+.intouch li.twitter a:link, .intouch li.twitter a:visited {
+  background-position: 0 6px;
+}
+
+.intouch li.twitter a:hover {
+  background-position: 0 -90px;
+  color: rgb(105,210,231);
+}
+
+.intouch li.rss a:link, .intouch li.rss a:visited {
+  background-position: 0 -30px;
+}
+
+.intouch li.email a:link, .intouch li.email a:visited {
+  background-position: 0 -60px;
+}
+
+.intouch li.twitter a:hover {
+  background-position: 0 -90px;
+  color: rgb(105,210,231);
+}
+
+.intouch li.rss a:hover {
+  background-position: 0 -126px;
+  color: rgb(243,134,48);
+}
+
+.intouch li.email a:hover {
+  background-position: 0 -156px;
+  color: rgb(56,55,54);
+}

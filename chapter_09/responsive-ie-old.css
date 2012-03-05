@@ -1,0 +1,47 @@
+/*
+we deal with crusty browsers by setting the width to 940 pixels
+
+*/
+
+.wrapper {
+	width: 940px;
+}
+
+.header .nav {
+	position: absolute;
+	top: 20px;
+	right: 0;
+	list-style-type: none;
+}
+
+.header h1 {
+	padding: 20px 0 20px 0;
+	font-size: 175%;
+}
+
+.header .nav li {
+	font-size: 175%;
+}
+
+.feature img {
+	width: 940px;
+}
+
+.gallery {
+	overflow:hidden;
+	clear: both;
+	width: 960px;
+	margin-left: -20px;
+}
+
+.gallery li {
+	float: left;
+	width: 220px;
+	margin: 0 0 20px 20px;
+}
+
+.gallery li img {
+	display: block;
+	height: 220px;
+	width: 220px;
+}

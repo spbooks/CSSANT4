@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Chapter 7: Selectivizr</title>
+	<link rel="stylesheet" href="selectors-jquery.css" />
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+	<script>
+	$(document).ready(function() {
+		$("tr:nth-child(odd)").addClass("odd");
+	});
+	</script>
+</head>
+<body>
+	<div class="wrapper">
+		<table class="datatable">
+			<caption>Student List</caption>
+			<tr>
+				<th scope="col">Student Name</th>
+				<th scope="col">Date of Birth</th>
+				<th scope="col">Class</th>
+				<th scope="col">ID</th>
+			</tr>
+			<tr>
+				<td>Joe Bloggs</td>
+				<td>27/08/1997</td>
+				<td>Mrs Jones</td>
+				<td>12009</td>
+			</tr>
+			<tr>
+				<td>William Smith</td>
+				<td>20/07/1997</td>
+				<td>Mrs Jones</td>
+				<td>12010</td>
+			</tr>
+			<tr>
+				<td>Jane Toad</td>
+				<td>21/07/1997</td>
+				<td>Mrs Jones</td>
+				<td>12030</td>
+			</tr>
+			<tr>
+				<td>Amanda Williams</td>
+				<td>19/03/1997</td>
+				<td>Mrs Edwards</td>
+				<td>12021</td>
+			</tr>
+			<tr>
+				<td>Kylie Jameson</td>
+				<td>18/05/1997</td>
+				<td>Mrs Jones</td>
+				<td>12022</td>
+			</tr>
+			<tr>
+				<td>Louise Smith</td>
+				<td>17/07/1997</td>
+				<td>Mrs Edwards</td>
+				<td>12019</td>
+			</tr>
+			<tr>
+				<td>James Jones</td>
+				<td>04/04/1997</td>
+				<td>Mrs Edwards</td>
+				<td>12007</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

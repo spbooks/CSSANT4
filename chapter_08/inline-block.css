@@ -1,0 +1,53 @@
+body {
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  font: 0.75em/1.5 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 1em 0 1em 0;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 20px auto 40px auto; 
+}
+
+.one {
+  background-color: #ccc;
+  color: #000;
+  border: 2px solid #aaa;
+  padding: 1em;
+  margin: 1em;
+}
+
+.two {
+  background-color: #ccc;
+  color: #000;
+  border: 2px solid #aaa;
+  padding: 1em;
+  display: inline;
+}
+
+a {
+  background-color: #ccc;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+}
+
+a.block {
+  display: block;
+  margin: 1em;
+  padding: 1em;
+}
+
+a.inline-block {
+  display: inline-block;
+  margin: 1em;
+  padding: 1em;
+  width: 200px;
+}

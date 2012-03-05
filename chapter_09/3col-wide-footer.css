@@ -1,0 +1,138 @@
+body {
+	background-color: rgb(255,255,255);
+	color: rgb(59,67,68);
+	margin: 0;
+	padding: 0;
+	font: 1em/1.4 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0 0 1em 0;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+ul, ol, p {
+	margin:0;
+	padding: 0 0 1em 0;
+}
+
+h1 {
+	font-size: 137.5%;
+	color: rgb(241,47,93);
+}
+
+h2 {
+	font-size: 125%;
+	color: rgb(241,47,93);
+}
+
+h3 {
+	font-size: 100%;
+}
+
+a:link, a:visited {
+	color: rgba(241,47,93,0.8);
+}
+
+a:hover {
+	color: rgb(241,47,93);
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 940px;
+	margin: 0 auto 0 auto;
+}
+
+.header {
+	text-align: right;
+	padding: 40px 0 0 0;
+	border-bottom: 8px solid rgb(59,67,68);
+	margin-bottom: 40px;
+}
+
+/* remove the bottom border from the h1 and add to the new .inner */
+
+.header h1 {
+	font-size: 187.5%;
+	padding-bottom: 10px;
+	color: rgb(59,67,68);
+	/*border-bottom: 1px solid rgb(59,67,68);
+	margin-bottom: 2px;*/
+}
+
+.header .inner {
+	border-bottom: 1px solid rgb(59,67,68);
+	margin-bottom: 2px;
+}
+
+.header h1 span {
+	font-style: italic;
+	color: rgb(241,47,93);
+}
+
+.subnav {
+	width: 220px;
+	float: left;
+	margin-right: 20px;
+}
+
+.article {
+	float:left;
+	width: 440px;
+}
+
+.aside {
+	width: 220px;
+	float:right;
+}
+
+/* remove the left and right padding on footer and add back to internal columns */
+
+.footer {
+	clear: both;
+	background-color: rgb(59,67,68);
+	color: rgb(255,255,255);
+	overflow: auto;
+	/*padding: 20px;*/
+	padding: 20px 0 20px 0;
+}
+
+.footer .copy {
+	float: left;
+	/*width: 200px;*/
+	width: 220px;
+}
+
+.footer .vcard {
+	float: right;
+	/*width: 200px;*/
+	width: 220px;
+}
+
+.footer a:link, .footer a:visited {
+	color: rgb(255,255,255);
+}
+
+.nav {
+	list-style-type: none;
+	padding: 0;
+}
+
+.nav a:link, .nav a:visited {
+	text-decoration: none;
+	display: block;
+	border-top: 1px solid rgb(232,243,248);
+	padding: 0.5em 0 0.5em 0;
+	color: rgb(66,148,182);
+}
+
+.nav a:hover {
+	background-color: rgba(232,243,248,0.3);
+}
+
+.box {
+	border-top: 1px solid rgb(219,230,236);
+	padding: 1em 0 1em 0;
+}

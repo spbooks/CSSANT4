@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(255,255,255);
+  color: rgb(0,0,0);
+  margin: 0;
+  padding: 0;
+  font: 0.875em/1.2 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 20px auto 40px auto;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 114.3%;
+}
+
+.nav > li {
+  float: left;
+  width: 130px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.nav li a:link, .nav li a:visited {
+  display: block;
+  text-decoration: none;
+  color: rgb(122,106,83);
+}
+
+.nav li a:hover {
+  color: rgb(153,178,183);
+}
+
+.nav li:hover ul, .nav li.sfHover ul {
+  margin-left: 0;
+}
+
+.nav ul {
+  position: absolute;
+  background-color: rgb(213,222,217);
+  border: 5px solid rgb(153,178,183);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 0.5em;
+  margin: 0.5em 0 0 -9999px;
+  -webkit-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2));
+  -moz-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2));
+  list-style: none;
+  font-size: 85.7%;
+  width: 8em;
+  line-height: 1.8;
+}
+
+.nav ul li a:link, .nav ul li a:visited {
+  color: rgb(0,0,0);
+}
+
+.nav ul li a:hover {
+  color: rgb(122,106,83);
+}

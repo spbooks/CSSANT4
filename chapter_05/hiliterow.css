@@ -1,0 +1,44 @@
+body {
+  background-color: #fff;
+  color: #111;
+  margin: 0;
+  padding: 0;
+  font: 0.75em/1.3 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 20px auto 40px auto;
+}
+
+.datatable {
+  border: 1px solid #D6DDE6;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.datatable td {
+  border: 1px solid #D6DDE6;
+  padding: 0.3em;
+}
+
+.datatable th {
+  border: 1px solid #828282;
+  background-color: #BCBCBC;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 0.3em;
+}
+
+.datatable caption {
+  font-size: 116.7%;
+  font-weight: bold;
+  color: #33517A;
+  text-align: left;
+  padding: 0.4em 0 0.8em 0;
+}
+
+.datatable tr:hover {
+  background-color: #DFE7F2;
+  color: #000000;
+}

@@ -1,0 +1,41 @@
+/*
+Calculating from width 700px
+Grid 9 columns at 60px, gutter 20px
+
+gutter = 20px | 2.85714%
+1 = 60px | 8.57142%
+2 = 140px | 20%
+3 = 220px | 31.42857%
+4 = 300px | 42.85714%
+5 = 380px | 54.28571%
+6 = 460px | 65.71428%
+7 = 540px | 77.14285%
+8 = 620px | 88.57142%
+9 = 700px | 100%
+
+*/
+
+.header .nav {
+	position: absolute;
+	top: 20px;
+	right: 0;
+	list-style-type: none;
+}
+
+.header h1 {
+	padding: 20px 0 20px 0;
+	font-size: 175%;
+}
+
+.header .nav li {
+	font-size: 175%;
+}
+
+.gallery li:nth-child(n) {
+	width: 31.42857%;
+	margin: 0 0 2.85714% 2.85714%;
+}
+
+.gallery li:nth-child(3n+1) {
+	margin-left: 0;
+}

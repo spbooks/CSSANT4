@@ -1,0 +1,10 @@
+.box {
+  height: 200px;
+  width: 200px;
+  border: 3px solid #333;
+  background: url(gear.png) top right no-repeat,
+  url(gear2.png) top left no-repeat,
+  url(gear3.png) bottom left no-repeat,
+  url(gear4.png) bottom right no-repeat,
+  url(brushed_alu.png);
+}

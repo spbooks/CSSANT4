@@ -1,0 +1,8 @@
+.datatable {
+  border: 1px solid #338ba6;
+  border-collapse: collapse;
+}
+
+.datatable td, .datatable th {
+  border: 1px solid #73c0d4;
+}

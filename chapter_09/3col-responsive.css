@@ -1,0 +1,166 @@
+body {
+	background-color: rgb(255,255,255);
+	color: rgb(59,67,68);
+	margin: 0;
+	padding: 0;
+	font: 1em/1.4 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0 0 1em 0;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+p {
+	margin: 0;
+	padding: 0 0 1em 0;
+}
+
+ul, ol {
+	margin: 0;
+	padding: 0 0 1em 1em;
+}
+
+
+h1 {
+	font-size: 137.5%;
+	color: rgb(241,47,93);
+}
+
+h2 {
+	font-size: 125%;
+	color: rgb(241,47,93);
+}
+
+h3 {
+	font-size: 100%;
+}
+
+a:link, a:visited {
+	color: rgba(241,47,93,0.8);
+}
+
+a:hover {
+	color: rgb(241,47,93);
+	text-decoration: none;
+}
+
+.header {
+	text-align: right;
+	padding: 40px 0 0 0;
+	border-bottom: 8px solid rgb(59,67,68);
+	margin-bottom: 40px;
+}
+
+.header h1 {
+	font-size: 187.5%;
+	padding-bottom: 10px;
+	color: rgb(59,67,68);
+}
+
+.header .inner {
+	border-bottom: 1px solid rgb(59,67,68);
+	margin-bottom: 2px;
+}
+
+.header h1 span {
+	font-style: italic;
+	color: rgb(241,47,93);
+}
+
+.footer {
+	clear: both;
+	background-color: rgb(59,67,68);
+	color: rgb(255,255,255);
+	padding: 20px 0 20px 0;
+	overflow: auto;
+}
+
+.footer a:link, .footer a:visited {
+	color: rgb(255,255,255);
+}
+
+.nav {
+	list-style-type: none;
+	padding: 0;
+}
+
+.nav a:link, .nav a:visited {
+	text-decoration: none;
+	display: block;
+	border-top: 1px solid rgb(232,243,248);
+	padding: 0.5em 0 0.5em 0;
+	color: rgb(66,148,182);
+}
+
+.nav a:hover {
+	background-color: rgba(232,243,248,0.3);
+}
+
+.box {
+	border-top: 1px solid rgb(219,230,236);
+	padding: 1em 0 1em 0;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+	.subnav {
+		width: 31.42857%; /* 220/700 */
+		float: left;
+	}
+
+	.article {
+		float: right;
+		width: 65.71428%; /* 460/700 */
+	}
+
+	.aside {
+		width: 100%; 
+		clear: both;
+	}
+
+	.footer .copy {
+		float: left;
+		width: 31.42857%; /* 220/700 */
+	}
+
+	.footer .vcard {
+		float: right;
+		width: 31.42857%; /* 220/700 */
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.wrapper {
+		max-width: 1180px;
+	}
+	
+	.subnav {
+		width: 23.404255%; /* 220/940 */
+		margin-right: 2.1276596%; /* 20/940 */
+	}
+
+	.article {
+		float: left;
+		width: 46.808511%; /* 440/940 */
+	}
+
+	.aside {
+		width: 23.404255%; /* 220/940 */
+		float: right;
+		clear: none; /* to counteract the clearing of the previous breakpoint */
+	}
+
+	.footer .copy {
+		width: 23.404255%; /* 220/940 */
+	}
+
+	.footer .vcard {
+		width: 23.404255%; /* 220/940 */
+	}
+}

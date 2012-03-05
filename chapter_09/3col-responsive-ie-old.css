@@ -1,0 +1,32 @@
+
+
+.wrapper {
+	width: 940px;
+}
+	
+	.subnav {
+		width: 220px;
+		float: left;
+		margin-right: 20px;
+	}
+
+	.article {
+		float: left;
+		width: 440px;
+	}
+
+	.aside {
+		width: 220px;
+		float: right;
+		
+	}
+
+	.footer .copy {
+		float: left;
+		width: 220px;
+	}
+
+	.footer .vcard {
+		float: right;
+		width: 220px;
+	}

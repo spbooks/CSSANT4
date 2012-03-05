@@ -1,0 +1,103 @@
+body {
+  background-color: #fff;
+  color: #111;
+  margin: 0;
+  padding: 0;
+  font: 0.75em/1.3 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 20px auto 40px auto;
+}
+
+form {
+  background-color: rgb(244,252,232);
+  width: 500px;
+  padding: 1em;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px; 
+}
+
+fieldset {
+  background-color: rgba(126,208,214,0.3);
+  border: 3px solid rgb(255,255,255);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px; 
+  margin: 0 0 1em 0;
+}
+
+fieldset:hover {
+  background-color: rgba(126,208,214,0.5);
+}
+
+legend {
+  font-size: 133%;
+}
+
+form div {
+  float: left;
+  width: 100%;
+  padding: 0 0 0.75em 0;
+  position: relative;
+}
+
+form p.help {
+  font-style: italic;
+  padding: 0 1em 1em 1em;
+}
+
+form p.help em {
+  color: red;
+}
+
+form fieldset div:first-of-type {
+  padding-top: 1em;
+}
+
+form label {
+  float: left;
+  width: 30%;
+  font-size: 116.7%;
+}
+
+form div label em {
+  position: absolute;
+  color: red;
+  right: 0;
+}
+
+form input {
+  width: 65%;
+  font-size: 133%;
+  border: 0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px; 
+  padding: 0.25em;
+}
+
+div.submit {
+  float: none;
+  background-color: rgba(126,208,214,0.3);
+  border: 3px solid rgb(255,255,255);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px; 
+  margin: 0 0 1em 0;
+  padding: 0.5em 0 0.5em 0;
+  text-align: center;
+}
+
+form input[type="submit"] {
+  width: auto;
+  border: 3px solid rgb(126,208,214);
+  background-color: rgba(78,150,137,0.5);
+  color: rgb(255,255,255);
+}
+
+form input[type="submit"]:hover {
+  background-color: rgb(78,150,137);
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Chapter 8: The Box Model</title>
+	<link rel="stylesheet" href="boxmodel.css" />
+
+</head>
+<body>
+<div class="wrapper">
+
+  <div class="box">
+    <div class="inner">
+      
+      <p>This example consists of two div elements nested one inside the other. The outer div has a class of 'box' and is 500 pixels wide. It has no margin or padding applied.</p>
+      
+      <p>The inner div has no width set. As a block level element it expands to fill the containing div. However we have added 20 pixels of margin to this div, a 5 pixel border and 20 pixels of padding.</p>
+      
+      <p>We can calculate the total width of the content area of the inner div (containing this text) as follows:</p>
+      
+      <p>500 - 40 pixels (the left and right margins) = 460
+      <br />460 - 10 pixels (the left and right border) = 450
+      <br />450 - 40 pixels (the left and right padding) = 410 pixels.</p>
+    
+    </div>
+  </div>
+
+
+</div>
+</body>
+</html>

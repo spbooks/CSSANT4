@@ -1,0 +1,28 @@
+/*
+Calculating from width 410px
+Grid 6 columns at 60px, gutter 10px
+
+gutter = 10px | 2.43902%
+1 = 60px | 14.63414%
+2 = 130px | 31.70731%
+3 = 200px | 48.78048%
+4 = 270px | 65.85365%
+5 = 340px | 82.92682%
+6 = 410px | 100%
+
+*/
+
+.gallery {
+	overflow: hidden;
+	clear: both;
+}
+
+.gallery li {
+	float: left;
+	width: 48.78048%;
+	margin: 0 0 2.43902% 2.43902%;
+}
+
+.gallery li:nth-child(2n+1) {
+	margin-left: 0;
+}

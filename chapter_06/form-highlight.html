@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Chapter 6: Styling a form</title>
+	<link rel="stylesheet" href="form-highlight.css" />
+</head>
+<body>
+	<div class="wrapper">
+		<form method="post" action="/contact" id="contact-form">
+			<div><label for="fName">Name</label>
+			<input type="text" name="fName" id="fName" required="required" /></div>
+			
+			<div><label for="fEmail">Email address</label>
+			<input type="text" name="fEmail" id="fEmail" /></div>
+			
+			<div><label for="fQuestion">Question / Comments</label>
+			<textarea name="fQuestion" id="fQuestion" rows="10" cols="30"></textarea></div>
+			
+			<div class="submit"><input type="submit" name="contact-submit" id="contact-submit" value="Submit" /></div>
+		</form>  
+	</div>
+</body>
+</html>

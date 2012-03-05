@@ -1,0 +1,18 @@
+body {
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  font: 0.875em/1.2 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, Tahoma, sans-serif;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 20px auto 40px auto;
+}
+
+a[href^="http:"] {
+  padding-left: 20px;
+  background-image: url(icon-link-external.png);
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,33 @@
+/*
+Calculating from width 940px
+Grid 12 columns at 60px, gutter 20px
+
+gutter = 20px | 2.12765%
+1 = 60px | 6.38297%
+2 = 140px | 14.89361%
+3 = 220px | 23.40425%
+4 = 300px | 31.91489%
+5 = 380px | 40.42553%
+6 = 460px | 48.93617%
+7 = 540px | 57.4468%
+8 = 620px | 65.95744%
+9 = 700px | 74.46808%
+10 = 780px | 82.97872%
+11 = 860px | 91.48936%
+12 = 940px | 100%
+
+*/
+
+.gallery {
+	overflow: hidden;
+	clear: both;
+}
+
+.gallery li:nth-child(n) {
+	width: 23.40425%;
+	margin: 0 0 2.12765% 2.12765%;
+}
+
+.gallery li:nth-child(4n+1) {
+	margin-left: 0;
+}

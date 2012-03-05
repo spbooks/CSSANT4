@@ -1,0 +1,5 @@
+a:link, a:visited, a:hover, a:active {
+  text-decoration: underline;
+  color: #6A5ACD;
+  background-color: transparent;
+}
